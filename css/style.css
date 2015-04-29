@@ -434,17 +434,37 @@ div {
 
 /* Navigation Section */
 .top-navigation {
-    background-color: #fff;
-}
-.top-navigation > .content {
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;
+    background-color:#fff;
+    width: 100%; 
+    position: fixed;
 }
 
-.top-navigation img {
-  margin-left: 14px;
-  height: 70px;
+.top-navigation > .content {
+    width: 100%;
+    height: 4.4em;
+    margin: 0 auto; 
+}
+
+.top-navigation .logo {
+  margin-left: 2.5em;
+  height: 4.4em;
+}
+
+.top-navigation .links {
+
+  padding:0px 15px; 
+}
+
+ul {
+   
+    display:inline-block;
+    margin-left:20em;
+}
+
+li {
+   display:inline-block;
+   float:right;
+   padding:0px 15px; 
 }
 /* mj navigation bar 
 #topbar {
