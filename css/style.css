@@ -439,32 +439,35 @@ div {
     position: fixed;
 }
 
-.top-navigation > .content {
-    width: 100%;
-    height: 4.4em;
+/*.top-navigation > .content { */
+.top-navigation .content {
+    width: 58rem;
+    height: 4.4rem;
     margin: 0 auto; 
+    padding:0px 1rem; 
 }
 
 .top-navigation .logo {
-  margin-left: 2.5em;
-  height: 4.4em;
+  /*margin-left: 2.5rem;*/
+  height: 4.4rem;
 }
 
 .top-navigation .links {
-
-  padding:0px 15px; 
+  margin-top:1.7rem
+  font-size:1.04rem;
+  float:right;
+  /*padding:0px 15px;*/
 }
 
 ul {
-   
-    display:inline-block;
-    margin-left:20em;
+     display:inline-block;
+     margin-left:20em;
 }
 
-li {
+.top-navigation .links li {
    display:inline-block;
-   float:right;
-   padding:0px 15px; 
+   margin-left: 1.6rem;
+   /*padding:0px 15px;*/ 
 }
 /* mj navigation bar 
 #topbar {
