@@ -432,6 +432,17 @@ div {
     border: 1px solid Chocolate;
 }
 
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+/* mj navigation bar 
 #topbar {
   height:75px;
   width:100%;
@@ -451,6 +462,6 @@ div {
 
 #topbar li {
    display:inline;
-   /*padding-left:3em;*/
    padding-right:2em;
- }
+ } */
+
