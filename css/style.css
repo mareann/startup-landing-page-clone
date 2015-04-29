@@ -431,3 +431,26 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+
+#topbar {
+  height:75px;
+  width:100%;
+  background-color: white;
+}
+
+#topbar img {
+  left:35px;
+  top:15px;
+  position: absolute;
+}
+
+#topbar ul {
+  float: right;
+  padding-right: 10em;
+}
+
+#topbar li {
+   display:inline;
+   /*padding-left:3em;*/
+   padding-right:2em;
+ }
