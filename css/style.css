@@ -437,31 +437,39 @@ div {
     background-color:#fff;
     width: 100%; 
     position: fixed;
+   font-family: 'Roboto', sans-serif; 
+font-size: 16px; 
+color: #838994; 
+letter-spacing: 0.03em;
 }
 
 /*.top-navigation > .content { */
 .top-navigation .content {
-    width: 58rem;
+    width: 59rem;
     height: 4.4rem;
+    /*margin: 0 auto;*/ 
     margin: 0 auto; 
     padding:0px 1rem; 
 }
 
 .top-navigation .logo {
   /*margin-left: 2.5rem;*/
-  height: 4.4rem;
+   height: 4.4rem; 
+   margin-top:0;
+ 
 }
 
 .top-navigation .links {
-  margin-top:1.7rem
-  font-size:1.04rem;
+
   float:right;
   /*padding:0px 15px;*/
 }
 
 ul {
      display:inline-block;
-     margin-left:20em;
+     margin-left:18em;
+     margin-top:1.7rem;
+     font-size:1.04rem;
 }
 
 .top-navigation .links li {
