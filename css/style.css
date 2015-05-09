@@ -506,6 +506,7 @@ h3 {
     background-color:#fff;
     width: 100%; 
     position: fixed;
+    z-index: 9999;
 }
 
 /*.top-navigation > .content { */
@@ -569,8 +570,8 @@ ul {
   padding-bottom:1rem;
   position:relative;
   padding-left:4rem;
-  /*margin-left:5rem;*/
-  float:left;
+  display:inline-block;
+  /*float:left;*/
   text-align:center;
   width:10em;
 }
@@ -586,13 +587,16 @@ ul {
 } */
 
 .img-with-text {
-/*  border:green;
+  /*border:green;
   border-width: 2px;
-  border-style: solid;
-*/
+  border-style: solid;*/
+  border: 2px solid green;
+  box-sizing: border-box;
+
   height:15em;
   width:14rem;
-  float:left;
+  /*float:left;*/
+  display:inline-block;
   padding-left:2rem;
   margin-left:4rem;
 }
