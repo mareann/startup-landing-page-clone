@@ -439,7 +439,7 @@ th {
   padding: 0;
 }
 body {
-    background-color: LightGray;
+  /*  background-color: LightGray;*/
 }
 div {
   /*  border: 1px solid Chocolate; */
@@ -587,14 +587,11 @@ ul {
 } */
 
 .img-with-text {
-  /*border:green;
-  border-width: 2px;
-  border-style: solid;*/
-  border: 2px solid green;
-  box-sizing: border-box;
+  /*border: 2px solid green;
+  box-sizing: border-box;*/
 
   height:15em;
-  width:14rem;
+  width:13rem;
   /*float:left;*/
   display:inline-block;
   padding-left:2rem;
@@ -602,7 +599,7 @@ ul {
 }
 
 .img-with-text img {
-  display:block;
+  display:inline-block;
 }
 
 .img-with-text p {
@@ -615,18 +612,49 @@ ul {
 .end {
   height:4em;
 }
-/*.coffee {
-  padding-left:2em;
-  margin-left:3em;
-  float:left;
+
+.icons {
+ list-style: none;
+ /*height:8rem;*/
+}
+
+ul  li {
+  display: inline-block;
+  margin-right: 1rem;
+
+ /* padding-bottom:2em;
+  padding-top:2em;
+  height:6rem;
+  width:6rem;
+*/
+}
+
+.fa-twitter{
+  color:#55ACEE;
+}
+
+.fa-facebook {
+  color:#4C7DC3;
+}
+
+.fa-instagram{
+  color:#3F729B;
+}
+
+.icons a {
+  height:2.5rem;
+  width:2.5rem;
+  vertical-align: middle;
+  text-align:center;
+  color: #000;
+  display: table-cell;
+  background-color: white;
+  border: 1px solid LightGray;
+  border-radius: 50%;
 }
 
 
-.refill {
-  padding-left:2em;
-  margin-left:3em;
-  float:left;
-} */
+
 /* mj navigation bar 
 #topbar {
   height:75px;
