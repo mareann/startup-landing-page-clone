@@ -501,6 +501,7 @@ h3 {
   cursor:pointer;
   color: #333;
 }
+
 /* Navigation Section */
 .top-navigation {
     background-color:#fff;
@@ -520,7 +521,7 @@ h3 {
 .top-navigation .logo {
    height: 4.4rem; 
    margin-top:0;
- 
+   position:relative; /* may 11 15 */
 }
 
 .top-navigation .links {
@@ -534,8 +535,8 @@ h3 {
 
 ul {
      display:inline-block;
-     margin-left:18rem;
-     margin-top:1.7rem;
+     margin-left:8rem;
+     margin-top:1.0rem;
      font-size:1.04rem;
 }
 
@@ -609,12 +610,40 @@ ul {
  /* font-size:1.5rem; */
 }
 
-.end {
+/*.end {
   height:4em;
+}*/
+
+/*.social {
+  height:22rem;
+}*/
+
+.social .content {
+  height:18rem;
+}
+.content hr {
+ /* padding-bottom: 2rem;*/
+ color: #EBECED;
+ /*border-width: 0.10rem;*/
+ border: 0.09rem solid #EBECED;
+}
+
+.content span {
+  text-align: center;
+/*  display:inline-block;*/
+  margin-left: 1rem; 
+  margin-top:20px;
+  display:block;
+  font-size:0.9rem;
 }
 
 .icons {
- list-style: none;
+  list-style: none;
+  margin-left: 25rem;
+ /* position:relative;*/
+  text-align: center;
+  display: inline-block;
+
  /*height:8rem;*/
 }
 
@@ -649,12 +678,19 @@ ul  li {
   color: #000;
   display: table-cell;
   background-color: white;
-  border: 1px solid LightGray;
+  border: 1px solid #EBECED;
   border-radius: 50%;
 }
 
+.context span {
+  display:inline-block;
+  margin: 0 1rem;
+}
 
-
+.copyright {
+  font-weight: lighter;
+  color:#A2D2FF;
+}
 /* mj navigation bar 
 #topbar {
   height:75px;
